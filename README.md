@@ -1,7 +1,7 @@
 # DonkeyKong
 Gameboy Advance Donkey Kong Game
 
-#To Run
+# To Run
 
 Installs ​ the​ ​ GBA​ ​ emulator​ ​ and​ ​ the​ ​ compiler​ ​ toolchain</br>
 ```sudo​ apt-get​ install​ gcc-arm-none-eabi```</br>
