@@ -4,15 +4,15 @@ Gameboy Advance Donkey Kong Game
 #To Run
 
 Installs ​ the​ ​ GBA​ ​ emulator​ ​ and​ ​ the​ ​ compiler​ ​ toolchain</br>
-```sudo​ apt-get​ install​ gcc-arm-none-eabi```
-```sudo​ apt-get​ install​ gcc-arm-none-eabi```
-```sudo​ apt-get​ install​ libnewlib-arm-none-eabi```
+```sudo​ apt-get​ install​ gcc-arm-none-eabi```</br>
+```sudo​ apt-get​ install​ gcc-arm-none-eabi```</br>
+```sudo​ apt-get​ install​ libnewlib-arm-none-eabi```</br>
 
 Removes all compiled files.</br>
-```make clean```
+```make clean```</br>
 
-Runs Gameboy Emulator</br>.
-```make vba```
+Runs Gameboy Emulator.</br>
+```make vba```</br>
 
 # Instructions:
 The goal of this game is to leap over the barrels, climb the ladders, and to reach Donkey Kong and save the princess.</br>
