@@ -5,8 +5,8 @@ Gameboy Advance Donkey Kong Game
 
 Installs ​ the​ ​ GBA​ ​ emulator​ ​ and​ ​ the​ ​ compiler​ ​ toolchain</br>
 ```sudo​ apt-get​ install​ gcc-arm-none-eabi```</br>
-```sudo​ apt-get​ install​ gcc-arm-none-eabi```</br>
 ```sudo​ apt-get​ install​ libnewlib-arm-none-eabi```</br>
+```sudo​ apt-get​ install​ cs2110-vbam-sdl```</br>
 
 Removes all compiled files.</br>
 ```make clean```</br>
