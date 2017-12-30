@@ -4,9 +4,6 @@
 void init() {
 	REG_DISPCTL = MODE3 | BG2_ENABLE;
 
-	sprintf(buffer, "Score: %d", score);
-	drawString(150, 5, buffer, RED);
-
 	// Fill screen with bgcolor using DBA
 	DMA[3].src = &bgcolor;
 	DMA[3].dst = videoBuffer;
@@ -265,46 +262,6 @@ int main() {
 				drawLadder(40, SCREENWIDTH - 10, 50, 1, BLUE);
 				drawLadder(90, 30, 50, 1, BLUE);
 				
-				//Update Score barrel_three
-				if (mario.row < 140 && mario.row > 100 && (mario.col == barrel_level_three.col - 2)) {
-					score++;
-				} else if (mario.row < 140 && mario.row > 100 && (mario.col == barrel_level_three.col - 1)) {
-					score++;
-				} else if (mario.row < 140 && mario.row > 100 && (mario.col == barrel_level_three.col)) {
-					score++;
-				} else if (mario.row < 140 && mario.row > 100 && (mario.col == barrel_level_three.col + 1)) {
-					score++;
-				} else if (mario.row < 140 && mario.row > 100 && (mario.col == barrel_level_three.col + 2)) {
-					score++;
-				}	
-
-				//Update Score barrel_two
-				else if (mario.row < 90 && mario.row > 40 && (mario.col == barrel_level_two.col - 2)) {
-					score++;
-				} else if (mario.row < 90 && mario.row > 40 && (mario.col == barrel_level_two.col - 1)) {
-					score++;
-				} else if (mario.row < 90 && mario.row > 40 && (mario.col == barrel_level_two.col)) {
-					score++;
-				} else if (mario.row < 90 && mario.row > 40 && (mario.col == barrel_level_two.col + 1)) {
-					score++;
-				} else if (mario.row < 90 && mario.row > 40 && (mario.col == barrel_level_two.col + 2)) {
-					score++;
-				}
-
-				//Update Score barrel_one
-				else if (mario.row < 40 && (mario.col == barrel_level_one.col - 2)) {
-					score++;
-				} else if (mario.row < 40 && (mario.col == barrel_level_one.col - 1)) {
-					score++;
-				} else if (mario.row < 40 && (mario.col == barrel_level_one.col)) {
-					score++;
-				} else if (mario.row < 40 && (mario.col == barrel_level_one.col + 1)) {
-					score++;
-				} else if (mario.row < 40 && (mario.col == barrel_level_one.col + 2)) {
-					score++;
-				}
-				sprintf(buffer, "Score: %d", score);
-				drawString(150, 5, buffer, GREEN);
 
 				if ((mario.col < donkey_kong.col + donkey_kong.width)
 					&& mario.row < 40) {
@@ -318,13 +275,9 @@ int main() {
 				break;
 			case WIN:
 				drawFullscreenImage(win_screen);
-				sprintf(buffer, "Score: %d", score);
-				drawString(150, 175, buffer, GREEN);
 				break;
 			case LOSE:
 				drawFullscreenImage(game_over);
-				sprintf(buffer, "Score: %d", score);
-				drawString(150, 175, buffer, GREEN);
 				break;
 			case PAUSE:
 				//background(160, 240, BLACK);
