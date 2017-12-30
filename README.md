@@ -14,7 +14,7 @@ Removes all compiled files.</br>
 Runs Gameboy Emulator.</br>
 ```make vba```</br>
 
-# Instructions:
+# Game Instructions:
 The goal of this game is to leap over the barrels, climb the ladders, and to reach Donkey Kong and save the princess.</br>
 
 <strong>Keys:</strong></br>
