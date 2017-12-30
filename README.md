@@ -8,6 +8,12 @@ Installs ​ the​ ​ GBA​ ​ emulator​ ​ and​ ​ the​ ​ compile
 ```sudo​ apt-get​ install​ libnewlib-arm-none-eabi```</br>
 ```sudo​ apt-get​ install​ cs2110-vbam-sdl```</br>
 
+Clone this directory.</br>
+```git clone https://github.com/tomonarifeehan/DonkeyKong.git```</br>
+
+Change into directory.</br>
+```cd DonkeyKong```</br>
+
 Removes all compiled files.</br>
 ```make clean```</br>
 
