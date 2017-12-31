@@ -26,10 +26,9 @@ The goal of this game is to leap over the barrels, climb the ladders, and to rea
 <strong>Keys:</strong></br>
 Z: Jump</br>
 X: Pause</br>
+Up Arrow: Climb </br>
 Backspace: Return to Splash Screen (works on every screen)</br>
 Start: Start Game/Resume Game</br></br>
 
-To see win screen: Collide with Donky Kong.</br>
-To see lose screen: Collide with a barrel.</br></br>
 
 ![Alt Text](https://github.com/tomonarifeehan/DonkeyKong/blob/master/img/final_game.gif)
