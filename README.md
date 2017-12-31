@@ -32,4 +32,4 @@ Start: Start Game/Resume Game</br></br>
 To see win screen: Collide with Donky Kong.</br>
 To see lose screen: Collide with a barrel.</br></br>
 
-![Alt Text](https://github.com/tomonarifeehan/DonkeyKong/blob/master/final_game.gif)
+![Alt Text](https://github.com/tomonarifeehan/DonkeyKong/blob/master/img/final_game.gif)
