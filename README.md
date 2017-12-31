@@ -7,7 +7,8 @@ Source code is found in the `src` folder. It requires special files and tools pr
 
 Install​ GBA​ emulator​ and​ compiler​ toolchain.</br>
 ```sudo​ apt-get​ install​ gcc-arm-none-eabi```</br>
-```sudo​ apt-get​ install​ libnewlib-arm-none-eabi```</br>
+```sudo add-apt-repository ppa:tricksterguy87/ppa-gt-cs2110```</br>
+```sudo apt-get update```</br>
 ```sudo​ apt-get​ install​ cs2110-vbam-sdl```</br>
 
 Clone directory.</br>
