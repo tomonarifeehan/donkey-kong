@@ -1,5 +1,5 @@
 # DonkeyKong
-Gameboy Advance Donkey Kong Game
+Gameboy Advance Donkey Kong Game - Created for CS 2110 at Georgia Institute of Technology
 
 ## To Run
 
