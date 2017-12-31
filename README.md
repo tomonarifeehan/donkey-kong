@@ -27,6 +27,8 @@ The goal of this game is to leap over the barrels, climb the ladders, and to rea
 Z: Jump</br>
 X: Pause</br>
 Up Arrow: Climb </br>
+Left Arrow: Move Left </br>
+Right Arrow: Move Right </br>
 Backspace: Return to Splash Screen (works on every screen)</br>
 Start: Start Game/Resume Game</br></br>
 
