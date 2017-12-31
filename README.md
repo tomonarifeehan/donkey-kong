@@ -1,7 +1,9 @@
 # DonkeyKong
 Gameboy Advance Donkey Kong Game - Created for CS 2110 at Georgia Institute of Technology
 
-## To Run
+**Source Code**
+
+Source code is found in the `src` directory. It requires special files and tools provided in CS 2110 to compile.
 
 Installs ​ the​ ​ GBA​ ​ emulator​ ​ and​ ​ the​ ​ compiler​ ​ toolchain.</br>
 ```sudo​ apt-get​ install​ gcc-arm-none-eabi```</br>
@@ -12,7 +14,7 @@ Clone this directory.</br>
 ```git clone https://github.com/tomonarifeehan/DonkeyKong.git```</br>
 
 Change into directory.</br>
-```cd DonkeyKong```</br>
+```cd DonkeyKong\src```</br>
 
 Removes all compiled files.</br>
 ```make clean```</br>
@@ -20,7 +22,11 @@ Removes all compiled files.</br>
 Runs Gameboy Emulator.</br>
 ```make vba```</br>
 
-## Game Instructions:
+**Executable**
+
+The executable donkey-kong.gba can be found in the `directory` folder. It can be run directly in any Game Boy Advance Emulator.
+
+**Game Instructions**
 The goal of this game is to leap over the barrels, climb the ladders, and to reach Donkey Kong and save the princess.</br>
 
 <strong>Keys:</strong></br>
